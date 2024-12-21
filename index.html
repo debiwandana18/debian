@@ -2,7 +2,7 @@
 <!-- saved from url=(0063)file:///C:/Users/User/Documents/Udangan%20pernikahan/index.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!-- Countdown -->
         <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css">
         <script src="countdown/simplyCountdown.min.js"></script>
@@ -93,7 +93,7 @@
         <section id="home" class="home">
             <div class="container" id="smooth-content">
                 <div class="row justify-content-center section">
-                    <div class="col-md-8 text-center">
+                    <div class="col-md-8 text-center" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
                         <h2>Acara Pernikahan</h2>
                         <h3>Diselenggarakan pada 16 Januari 2025 di Kota Bumi</h3>
                         <p>Oleh karena itu kami ingin mengundang Bapak/Ibu/Saudar/i di pernikahan kami</p>
@@ -131,12 +131,13 @@
         <section id="info" class="info">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-md-8 col-10 text-center"></div>
+                    <div class="col-md-8 col-10 text-center">
                     <h2>Info Acara</h2>
                     <p class="alamat"> Alamat : Desa Talang, Jembatan, Abung Kunang, Lampung Utara</p>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3975.3069246991686!2d104.80611257324347!3d-4.8881821501678795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s6P764R65%2BPF!5e0!3m2!1sid!2sid!4v1734786202292!5m2!1sid!2sid" width="90%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <a href="https://maps.app.goo.gl/LG4DAwuGLz5PH4Qs6" target="_blank" class="btn btn-light btn-sm my-4">Lihat Map </a>
                     <p class="description">Diharapkan tidak salah alamat dan sampai tujuan dgn selamat.</p>
+                    </div>
                 </div>
             </div>
             <div class="row justify-content-center mt-4">
@@ -437,7 +438,13 @@
         <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
         <script src="lenis/dist/lenis.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+            
         <script src="script.js"></script>
+        
+            
         <script>
         simplyCountdown('.simply-countdown', {
             year: 2025, // Target year (required)
