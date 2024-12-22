@@ -531,9 +531,8 @@ section .donasi {
 		padding: 60px;
 		margin: 5px;
 	}
-	margin-left: 1rem;
 }
-
+	
 .home .heart {
 	display: none;
 }
@@ -551,7 +550,7 @@ section .donasi {
     text-align: center;
     transform: translateY(200%);
     }
-}
+
 
 /*smartphone*/
 @media (max-width: 576px){
