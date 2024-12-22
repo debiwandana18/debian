@@ -8,6 +8,8 @@ body {
 	min-height: 2000px;
 	font-size: 1.4rem;
 	font-family: 'Work Sans', sans-serif;
+	justify-content: center !important;
+	align-items: center !important;
 }
 
 .hero::before {
