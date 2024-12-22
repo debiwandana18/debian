@@ -22,8 +22,9 @@
     <body style="">
         <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
             <main>
-                <h4>Terimakasih atas kunjungan <span></span></h4>
+                <h4>The Wedding of</h4>
                 <h1>Debi &amp; Dian</h1>
+                    <h3>Dear <span> </span></h3>
                 <p>Akan melangsungkan resepsi pernikahan dalam: </p>
                 <div class="simply-countdown" data-aos="flip-down" data-aos-duration="1100" data-aos-delay="400"></div>
                 <a href="#undangan" class="btn btn-lg mt-4" onclick="enableScroll()"> <span id="home">Buka Undangan </span></a>
@@ -194,7 +195,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="timeline-inverted">
                             <div class="timeline-image" style="background-image: url(img/pp.png);"></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -243,7 +244,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="timeline-inverted">
                             <div class="timeline-image" style="background-image: url(img/pp.png);"></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -251,7 +252,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="timeline-inverted">
                             <div class="timeline-image" style="background-image: url(img/pp.png);"></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -259,7 +260,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="timeline-inverted">
                             <div class="timeline-image" style="background-image: url(img/pp.png);"></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -267,7 +268,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="timeline-inverted">
                             <div class="timeline-image" style="background-image: url(img/pp.png);"></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -275,7 +276,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="timeline-inverted">
                             <div class="timeline-image" style="background-image: url(img/pp.png);"></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -548,7 +549,7 @@
 const urlParams = new URLSearchParams(window.location.search);
 const nama = urlParams.get('nama') || '';
 const pronoun = urlParams.get('p') || 'Bapak/Ibu/Saudara/i';
-const namaContainer = document.querySelector('.hero h4 span');
+const namaContainer = document.querySelector('.hero h3 span');
 namaContainer.innerText = `${pronoun} ${nama}`.replace(/ ,$/, ',');
 
 
