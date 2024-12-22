@@ -399,6 +399,80 @@ footer .author {
     border-bottom: 1px solid #ccc;
 }
 
+section .donasi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.containers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cards {
+    background: linear-gradient(145deg, #002147, #0073e6);
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.chips {
+    width: 50px;
+    height: 40px;
+    background-color: #d4af37;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logos {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.logos img {
+    width: 50px;
+}
+
+.details {
+    margin-top: 80px;
+}
+
+.details .bank {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.details .account-number {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.details .name {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.details .valid-thru {
+    font-size: 0.9em;
+}
+
 @keyframes rotating {
     from {
         transform: rotate(0);
