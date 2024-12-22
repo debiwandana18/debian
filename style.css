@@ -399,6 +399,16 @@ footer .author {
     border-bottom: 1px solid #ccc;
 }
 
+@keyframes rotating {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
 section .donasi {
     display: flex;
     justify-content: center;
@@ -471,16 +481,6 @@ section .donasi {
 
 .details .valid-thru {
     font-size: 0.9em;
-}
-
-@keyframes rotating {
-    from {
-        transform: rotate(0);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-
 }
 
 /* media querry responsive*/
